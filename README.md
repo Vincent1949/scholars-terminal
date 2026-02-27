@@ -1,5 +1,7 @@
 # Scholar's Terminal
 
+![Scholar's Terminal](Scholars_Terminal.png)
+
 **Transform your personal library into an AI-powered knowledge base.**
 
 Search across thousands of books, research papers, code repositories, and documents using natural language queries. Get precise answers with source citations, and click to open PDFs exactly where the information appears.
