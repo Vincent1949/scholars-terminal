@@ -1,20 +1,37 @@
-# Research Scanner Requirements
+# Scholar's Terminal - Complete Dependencies
 
-# Core dependencies
-pyyaml>=6.0
-python-dotenv>=1.0.0
-rich>=13.0.0  # For setup wizard
+# Core Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.0.0
 
-# Vector database
-chromadb>=0.4.0
+# Vector Database
+chromadb>=0.4.22
 
-# LLM integration
+# Document Processing
+PyPDF2>=3.0.1
+python-magic>=0.4.27  # File type detection
+python-magic-bin>=0.4.14; sys_platform == 'win32'  # Windows binary
+
+# LLM Integration
+httpx>=0.26.0  # For Ollama API calls
 # Note: Ollama should be installed separately from https://ollama.ai/
 
 # Optional: Faster ChromaDB with sentence-transformers
 sentence-transformers>=2.2.0
 
-# Development dependencies (optional)
-pytest>=7.0.0
-black>=23.0.0
-flake8>=6.0.0
+# Configuration & Utilities
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+rich>=13.7.0  # For setup wizard and CLI output
+tqdm>=4.66.0  # Progress bars
+
+# Development Dependencies (optional)
+pytest>=7.4.0
+black>=23.12.0
+flake8>=7.0.0
+mypy>=1.8.0
+
+# Documentation
+mkdocs>=1.5.3  # Optional: for documentation site
+mkdocs-material>=9.5.0  # Optional: Material theme for MkDocs

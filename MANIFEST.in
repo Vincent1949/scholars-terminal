@@ -1,0 +1,46 @@
+# Include documentation
+include README.md
+include LICENSE
+include CHANGELOG.md
+include CONTRIBUTING.md
+include TEMPLATE_CATALOG.md
+include PROJECT_STATUS.md
+
+# Include requirements
+include requirements.txt
+include setup.py
+
+# Include configuration files
+include .gitignore
+
+# Include all templates
+recursive-include research_scanner/templates *.yaml
+
+# Include examples
+recursive-include examples *.py *.md
+
+# Include documentation
+recursive-include docs *.md
+
+# Exclude development and cache files
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude __pycache__
+global-exclude *.so
+global-exclude .DS_Store
+global-exclude .env
+global-exclude .venv
+
+# Exclude data directories
+prune chroma_db
+prune data
+prune paper_cache
+prune tests
+prune .git
+prune .vscode
+prune .idea
+
+# Exclude build artifacts
+prune build
+prune dist
+prune *.egg-info

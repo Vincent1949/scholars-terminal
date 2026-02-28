@@ -25,9 +25,9 @@ from research_scanner.review_routes import create_review_router
 from research_scanner.scheduler import start_scheduler
 
 # Configuration
-CHROMA_DB_PATH = r"D:\Claude\Projects\scholars-terminal\data\vector_db"
-OLLAMA_URL = "http://localhost:11434"
-DEFAULT_MODEL = "llama3.2"
+CHROMA_DB_PATH = os.getenv("CHROMA_DB_PATH", str(Path(__file__).parent / "data" / "vector_db"))
+OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
+DEFAULT_MODEL = os.getenv("DEFAULT_MODEL", "llama3.2")
 
 # ============================================================
 # Lifespan Event Handler

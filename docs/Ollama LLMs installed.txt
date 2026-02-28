@@ -1,0 +1,29 @@
+qwen3-embedding:8b         64b933495768    4.7 GB    2 months ago
+mixtral:latest             a3b6bef0f836    26 GB     2 months ago
+dolphin3:latest            d5ab9ae8e1f2    4.9 GB    2 months ago
+mistral:latest             6577803aa9a0    4.4 GB    2 months ago
+embeddinggemma:latest      85462619ee72    621 MB    2 months ago
+glm-4.6:cloud              05277b76269f    -         2 months ago
+llama3.1:8b                46e0c10c039e    4.9 GB    3 months ago
+llama3.3:70b               a6eb4748fd29    42 GB     3 months ago
+falcon3:7b                 472ea1c89f64    4.6 GB    3 months ago
+falcon:latest              4280f7257e73    4.2 GB    3 months ago
+deepcoder:1.5b             3bc49891ec47    1.1 GB    3 months ago
+llama3.2-vision:11b        6f2f9757ae97    7.8 GB    3 months ago
+qwen2.5vl:7b               5ced39dfa4ba    6.0 GB    3 months ago
+codegemma:latest           0c96700aaada    5.0 GB    3 months ago
+deepseek-coder:1.3b        3ddd2d3fc8d2    776 MB    3 months ago
+qwen2.5-coder:32b          b92d6a0bd47e    19 GB     3 months ago
+phi4:14b                   ac896e5b8b34    9.1 GB    3 months ago
+qwen2.5-coder:7b           dae161e27b0e    4.7 GB    3 months ago
+phi3:3.8b                  4f2222927938    2.2 GB    3 months ago
+llama3:8b                  365c0bd3c000    4.7 GB    3 months ago
+llama3.2:3b                a80c4f17acd5    2.0 GB    3 months ago
+qwen3:30b                  ad815644918f    18 GB     3 months ago
+qwen3:8b                   500a1f067a9f    5.2 GB    3 months ago
+qwen3-coder:30b            06c1097efce0    18 GB     3 months ago
+gemma3:4b                  a2af6cc3eb7f    3.3 GB    3 months ago
+deepseek-r1:8b             6995872bfe4c    5.2 GB    3 months ago
+qwen3-vl:8b                901cae732162    6.1 GB    3 months ago
+gemma:2b                   b50d6c999e59    1.7 GB    3 months ago
+gpt-oss:latest             aa4295ac10c3    13 GB
